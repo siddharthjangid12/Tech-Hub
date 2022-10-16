@@ -1,0 +1,376 @@
+.about-banner{
+    height: auto;
+    width: 100%;
+}
+.about-section{
+    width: 100%;
+    height: auto;
+}
+.about-data-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+}
+.about-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.about-data-1-{
+   background-color: #F65A83;
+   margin-right: 5rem;
+   padding: 5rem 2rem;
+   border-radius: 25px;
+}
+.about-data-2-{
+    background-color: #277BC0;
+    margin-right: 5rem;
+    padding: 5rem 2rem;
+    border-radius: 25px;
+}
+.about-data-3-{
+    background-color: #F65A83;
+    margin-right: 5rem;
+    padding: 5rem 2rem;
+    border-radius: 25px;
+ }
+ .about-data-section h5{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-left: -4rem;
+    margin-bottom: 0.5rem;
+ }
+ .about-data-section span{
+    margin-left: -0.5rem;
+ }
+ .about-data-section i{
+    color: gold;
+    font-size: 15px;
+    margin-right: 0.2rem;
+    margin-bottom: 1.5rem;
+ }
+ .about-btn{
+    background-color: white;
+    color: #277BC0;
+    padding: 0.6rem 0.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: -0.5rem;
+    transition: all 0.2s ease-in-out;
+ }
+ .about-btn:hover{
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+ }
+ .about-section h4{
+    font-size: 35px;
+    font-weight: bold;
+    color: #F65A83;
+    margin-left: 27.5rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+ }
+
+ @media screen and (max-width:319px){
+   .about-banner{
+      height: auto;
+      width: 390%;
+  }
+  .about-section{
+      width: 100%;
+      height: auto;
+  }
+  .about-data-section{
+      margin-left: 5rem;
+  }
+  .about-icon{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+  }
+  .about-data-1-{
+     background-color: #F65A83;
+     margin-right: 4rem;
+     padding: 5rem 7rem;
+  }
+  .about-data-2-{
+      background-color: #277BC0;
+      margin-right: 4rem;
+      padding: 5rem 7rem;   
+  }
+  .about-data-3-{
+      background-color: #F65A83;
+      margin-right: 4rem;
+      padding: 5rem 7rem;  
+   }
+   .about-data-section h5{
+      font-size: 23px;
+   }
+   .about-data-section span{
+      margin-left: -2rem;
+      margin-bottom: 1rem;
+   }
+   .about-btn{
+      margin-left: -5rem;
+      font-size: 1.4rem;
+   }
+   .about-section h4{
+      font-size: 40px;
+      margin-right: -34rem;
+      margin-left: 25rem;
+   }
+ }
+
+ @media screen and (min-width:320px) and (max-width:430px){
+   .about-banner{
+      height: auto;
+      width: 390%;
+  }
+  .about-section{
+      width: 100%;
+      height: auto;
+  }
+  .about-data-section{
+      margin-left: 5rem;
+  }
+  .about-icon{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+  }
+  .about-data-1-{
+     background-color: #F65A83;
+     margin-right: 4rem;
+     padding: 5rem 7rem;
+  }
+  .about-data-2-{
+      background-color: #277BC0;
+      margin-right: 4rem;
+      padding: 5rem 7rem;   
+  }
+  .about-data-3-{
+      background-color: #F65A83;
+      margin-right: 4rem;
+      padding: 5rem 7rem;  
+   }
+   .about-data-section h5{
+      font-size: 23px;
+   }
+   .about-data-section span{
+      margin-left: -2rem;
+      margin-bottom: 1rem;
+   }
+   .about-btn{
+      margin-left: -5rem;
+      font-size: 1.4rem;
+   }
+   .about-section h4{
+      font-size: 40px;
+      margin-right: -34rem;
+      margin-left: 25rem;
+   }
+ }
+
+ @media screen and (min-width:431px) and (max-width:540px){
+   .about-banner{
+      height: auto;
+      width: 300%;
+  }
+  .about-section{
+      width: 100%;
+      height: auto;
+  }
+  .about-data-section{
+      margin-left: 5rem;
+  }
+  .about-icon{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+  }
+  .about-data-1-{
+     background-color: #F65A83;
+     margin-right: 4rem;
+     padding: 5rem 7rem;
+  }
+  .about-data-2-{
+      background-color: #277BC0;
+      margin-right: 4rem;
+      padding: 5rem 7rem;   
+  }
+  .about-data-3-{
+      background-color: #F65A83;
+      margin-right: 4rem;
+      padding: 5rem 7rem;  
+   }
+   .about-data-section h5{
+      font-size: 23px;
+   }
+   .about-data-section span{
+      margin-left: -2rem;
+      margin-bottom: 1rem;
+   }
+   .about-btn{
+      margin-left: -5rem;
+      font-size: 1.4rem;
+   }
+   .about-section h4{
+      font-size: 40px;
+      margin-right: -34rem;
+      margin-left: 25rem;
+   }
+ }
+
+ @media screen and (min-width:541px) and (max-width:767px){
+   .about-banner{
+      height: auto;
+      width: 230%;
+  }
+  .about-section{
+      width: 100%;
+      height: auto;
+  }
+  .about-data-section{
+      margin-left: 5rem;
+  }
+  .about-icon{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+  }
+  .about-data-1-{
+     background-color: #F65A83;
+     margin-right: 4rem;
+     padding: 5rem 7rem;
+  }
+  .about-data-2-{
+      background-color: #277BC0;
+      margin-right: 4rem;
+      padding: 5rem 7rem;   
+  }
+  .about-data-3-{
+      background-color: #F65A83;
+      margin-right: 4rem;
+      padding: 5rem 7rem;  
+   }
+   .about-data-section h5{
+      font-size: 23px;
+   }
+   .about-data-section span{
+      margin-left: -2rem;
+      margin-bottom: 1rem;
+   }
+   .about-btn{
+      margin-left: -6rem;
+      font-size: 1.6rem;
+   }
+   .about-section h4{
+      font-size: 40px;
+      margin-right: -34rem;
+      margin-left: 25rem;
+   }
+ }
+
+ @media screen and (min-width:768px) and (max-width:912px){
+   .about-banner{
+      height: auto;
+      width: 170%;
+  }
+  .about-section{
+      width: 100%;
+      height: auto;
+  }
+  .about-data-section{
+      margin-left: 5rem;
+  }
+  .about-icon{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+  }
+  .about-data-1-{
+     background-color: #F65A83;
+     margin-right: 4rem;
+     padding: 5rem 7rem;
+  }
+  .about-data-2-{
+      background-color: #277BC0;
+      margin-right: 4rem;
+      padding: 5rem 7rem;   
+  }
+  .about-data-3-{
+      background-color: #F65A83;
+      margin-right: 4rem;
+      padding: 5rem 7rem;  
+   }
+   .about-data-section h5{
+      font-size: 23px;
+   }
+   .about-data-section span{
+      margin-left: -2rem;
+      margin-bottom: 1rem;
+   }
+   .about-btn{
+      margin-left: -6rem;
+      font-size: 1.6rem;
+   }
+   .about-section h4{
+      font-size: 40px;
+      margin-right: -34rem;
+      margin-left: 25rem;
+   }
+ }
+
+ @media screen and (min-width:913px) and (max-width:1024px){
+   .about-banner{
+      height: auto;
+      width: 140%;
+  }
+  .about-section{
+      width: 100%;
+      height: auto;
+  }
+  .about-data-section{
+      margin-left: 5rem;
+  }
+  .about-icon{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+  }
+  .about-data-1-{
+     background-color: #F65A83;
+     margin-right: 4rem;
+     padding: 5rem 7rem;
+  }
+  .about-data-2-{
+      background-color: #277BC0;
+      margin-right: 4rem;
+      padding: 5rem 7rem;   
+  }
+  .about-data-3-{
+      background-color: #F65A83;
+      margin-right: 4rem;
+      padding: 5rem 7rem;  
+   }
+   .about-data-section h5{
+      font-size: 23px;
+   }
+   .about-data-section span{
+      margin-left: -2rem;
+      margin-bottom: 1rem;
+   }
+   .about-btn{
+      margin-left: -6rem;
+      font-size: 1.6rem;
+   }
+   .about-section h4{
+      font-size: 40px;
+      margin-right: -34rem;
+      margin-left: 25rem;
+   }
+ }

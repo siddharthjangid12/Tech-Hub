@@ -1,0 +1,19 @@
+.lastfooter{
+    height: 10vh;
+    width: 100%;
+    border-top: 2px solid #277BC0;
+}
+.lastfooter p{
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.lastfooter h6{
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    margin-top: 0.3rem;
+}

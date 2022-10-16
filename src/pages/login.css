@@ -1,0 +1,135 @@
+.login-input{
+    height: 35px;
+    width: 500px;
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 26rem;
+    padding-left: 0.3rem;
+}
+.login-image{
+    width: 100%;
+    height: auto;
+}
+.login-section{
+    height: auto;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.login-section h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #F65A83;
+    margin-left: 32rem;
+    margin-bottom: 2rem;
+}
+.login-btn{
+    background-color: #F65A83;
+    color: white;
+    padding: 0.6rem 0.8rem;
+    text-decoration: none;
+    margin-left: 26rem;
+}
+
+@media screen and (min-width:320px) and (max-width:430px){
+    .login-input{
+        margin-left: 12rem;
+        padding-left: 0.3rem;
+    }
+    .login-image{
+        width: 390%;
+        height: auto;
+    }
+    .login-section{
+        height: auto;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .login-section h3{
+        font-size: 35px;
+       margin-right: -32rem;
+        margin-bottom: 2rem;
+        margin-left: 16rem;
+        margin-top: 2rem;
+    }
+    .login-btn{
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (min-width:541px) and (max-width:767px){
+    .login-input{
+        margin-left: 12rem;
+        padding-left: 0.3rem;
+    }
+    .login-image{
+        width: 230%;
+        height: auto;
+    }
+    .login-section{
+        height: auto;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .login-section h3{
+        font-size: 35px;
+       margin-right: -32rem;
+        margin-bottom: 2rem;
+        margin-left: 16rem;
+        margin-top: 2rem;
+    }
+    .login-btn{
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .login-input{
+        margin-left: 12rem;
+        padding-left: 0.3rem;
+    }
+    .login-image{
+        width: 170%;
+        height: auto;
+    }
+    .login-section{
+        height: auto;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .login-section h3{
+        font-size: 35px;
+       margin-right: -32rem;
+        margin-bottom: 2rem;
+        margin-left: 16rem;
+        margin-top: 2rem;
+    }
+    .login-btn{
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (min-width:913px) and (max-width:1024px){
+    .login-input{
+        margin-left: 12rem;
+        padding-left: 0.3rem;
+    }
+    .login-image{
+        width: 140%;
+        height: auto;
+    }
+    .login-section{
+        height: auto;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .login-section h3{
+        font-size: 35px;
+       margin-right: -32rem;
+        margin-bottom: 2rem;
+        margin-left: 16rem;
+        margin-top: 2rem;
+    }
+    .login-btn{
+        margin-left: 12rem;
+    }
+}

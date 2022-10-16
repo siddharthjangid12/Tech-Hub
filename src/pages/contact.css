@@ -1,0 +1,312 @@
+.contact-section{
+    width: 100%;
+    height: auto;
+}
+.contact-banner{
+    width: 100%;
+    height: auto;
+}
+.contact-image{
+    height: 370px;
+    width: 400px;
+    border-radius: 30px;
+    margin-left: 2.5rem;
+}
+.contact-section--{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 2rem;
+}
+.contact-data{
+    margin-top: 5.5rem;
+}
+.contact-data h2{
+   font-size: 27px;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: #F65A83;   
+   margin-bottom: 0.2rem;
+}
+.contact-data h6{
+   font-size: 20px;
+   font-weight: lighter;
+   color: #277BC0;
+}
+.contact-data p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #277BC0;
+    margin-bottom: 0.5rem;
+}
+.contact-data i{
+    font-size: 20px;
+    color: white;
+    padding: 0.8rem 0.8rem;
+    background-color: #F65A83;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+.contact-data i:hover{
+    background-color: #277BC0;
+    transform: rotate(360deg);
+}
+
+@media screen and (max-width:319px){
+    .contact-section{
+        width: 100%;
+        height: auto;
+    }
+    .contact-banner{
+        width: 390%;
+        height: auto;
+    }
+    .contact-image{
+        height: 390px;
+        width: 400px;
+        margin-left: 2.5rem;
+    }
+    .contact-section--{
+        padding: 2rem 2rem;
+        gap: 9rem;
+        margin-left: 4rem;
+    }
+    .contact-data{
+        margin-top: 2rem;
+    }
+    .contact-data h2{
+       font-size: 28px;
+       margin-left: 3rem;
+    }
+    .contact-data h6{
+       font-size: 28px;
+       text-align: center;
+    }
+    .contact-data p{
+        font-size: 28px;
+        text-align: center;
+    }
+    .contact-data span{
+        margin-left: 2.7rem;
+    }
+    .contact-data i{
+        font-size: 20px;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:430px){
+    .contact-section{
+        width: 100%;
+        height: auto;
+    }
+    .contact-banner{
+        width: 390%;
+        height: auto;
+    }
+    .contact-image{
+        height: 390px;
+        width: 400px;
+        margin-left: 2.5rem;
+    }
+    .contact-section--{
+        padding: 2rem 2rem;
+        gap: 9rem;
+        margin-left: 4rem;
+    }
+    .contact-data{
+        margin-top: 2rem;
+    }
+    .contact-data h2{
+       font-size: 28px;
+       margin-left: 3rem;
+    }
+    .contact-data h6{
+       font-size: 28px;
+       text-align: center;
+    }
+    .contact-data p{
+        font-size: 28px;
+        text-align: center;
+    }
+    .contact-data span{
+        margin-left: 2.7rem;
+    }
+    .contact-data i{
+        font-size: 20px;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width:431px) and (max-width:540px){
+    .contact-section{
+        width: 100%;
+        height: auto;
+    }
+    .contact-banner{
+        width: 300%;
+        height: auto;
+    }
+    .contact-image{
+        height: 390px;
+        width: 400px;
+        margin-left: 2.5rem;
+    }
+    .contact-section--{
+        padding: 2rem 2rem;
+        gap: 9rem;
+        margin-left: 4rem;
+    }
+    .contact-data{
+        margin-top: 2rem;
+    }
+    .contact-data h2{
+       font-size: 28px;
+       margin-left: 3rem;
+    }
+    .contact-data h6{
+       font-size: 28px;
+       text-align: center;
+    }
+    .contact-data p{
+        font-size: 28px;
+        text-align: center;
+    }
+    .contact-data span{
+        margin-left: 2.7rem;
+    }
+    .contact-data i{
+        font-size: 20px;
+        margin-right: 1rem;
+    }
+}
+
+
+@media screen and (min-width:541px) and (max-width:767px){
+    .contact-section{
+        width: 100%;
+        height: auto;
+    }
+    .contact-banner{
+        width: 230%;
+        height: auto;
+    }
+    .contact-image{
+        height: 390px;
+        width: 400px;
+        margin-left: 2.5rem;
+    }
+    .contact-section--{
+        padding: 2rem 2rem;
+        gap: 9rem;
+        margin-left: 4rem;
+    }
+    .contact-data{
+        margin-top: 1.5rem;
+    }
+    .contact-data h2{
+       font-size: 28px;
+       margin-left: 3rem;
+    }
+    .contact-data h6{
+       font-size: 28px;
+       text-align: center;
+    }
+    .contact-data p{
+        font-size: 28px;
+        text-align: center;
+    }
+    .contact-data span{
+        margin-left: 2.7rem;
+    }
+    .contact-data i{
+        font-size: 25px;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .contact-section{
+        width: 100%;
+        height: auto;
+    }
+    .contact-banner{
+        width: 170%;
+        height: auto;
+    }
+    .contact-image{
+        height: 390px;
+        width: 400px;
+        margin-left: 2.5rem;
+    }
+    .contact-section--{
+        padding: 2rem 2rem;
+        gap: 9rem;
+        margin-left: 4rem;
+    }
+    .contact-data{
+        margin-top: 1.5rem;
+    }
+    .contact-data h2{
+       font-size: 28px;
+       margin-left: 3rem;
+    }
+    .contact-data h6{
+       font-size: 28px;
+       text-align: center;
+    }
+    .contact-data p{
+        font-size: 28px;
+        text-align: center;
+    }
+    .contact-data span{
+        margin-left: 2.7rem;
+    }
+    .contact-data i{
+        font-size: 25px;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width:913px) and (max-width:1024px){
+    .contact-section{
+        width: 100%;
+        height: auto;
+    }
+    .contact-banner{
+        width: 140%;
+        height: auto;
+    }
+    .contact-image{
+        height: 390px;
+        width: 400px;
+        margin-left: 2.5rem;
+    }
+    .contact-section--{
+        padding: 2rem 2rem;
+        gap: 9rem;
+        margin-left: 4rem;
+    }
+    .contact-data{
+        margin-top: 1.5rem;
+    }
+    .contact-data h2{
+       font-size: 28px;
+       margin-left: 3rem;
+    }
+    .contact-data h6{
+       font-size: 28px;
+       text-align: center;
+    }
+    .contact-data p{
+        font-size: 28px;
+        text-align: center;
+    }
+    .contact-data span{
+        margin-left: 2.7rem;
+    }
+    .contact-data i{
+        font-size: 25px;
+        margin-right: 1rem;
+    }
+}

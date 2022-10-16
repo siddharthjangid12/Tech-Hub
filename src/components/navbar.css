@@ -1,0 +1,102 @@
+.navbar-list{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding-right: 2rem;
+}
+.navbar-icon{
+    text-decoration: none;
+    font-size: 18px;
+    color: #F65A83;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-icon:hover{
+    color: #277BC0;
+}
+.home-reg-btn{
+    background-color: #F65A83;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
+}
+.home-reg-btn:hover{
+    background-color: #277BC0;
+}
+
+@media screen and (max-width:319px){
+    .navbar-list{
+        margin-left: 20rem;
+    }
+    .navbar-icon{
+        font-size: 29px;  
+    }
+    .home-reg-btn{
+    display: none;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:430px){
+    .navbar-list{
+        margin-left: 20rem;
+    }
+    .navbar-icon{
+        font-size: 29px;  
+    }
+    .home-reg-btn{
+    display: none;
+    }
+}
+
+@media screen and (min-width:431px) and (max-width:540px){
+    .navbar-list{
+        margin-left: 20rem;
+    }
+    .navbar-icon{
+        font-size: 29px;  
+    }
+    .home-reg-btn{
+     display: none;
+    }
+}
+
+@media screen and (min-width:541px) and (max-width:767px){
+    .navbar-list{
+        margin-left: 20rem;
+        gap: 2rem;
+    }
+    .navbar-icon{
+        font-size: 26px;  
+    }
+    .home-reg-btn{
+     display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:912px){
+    .navbar-list{
+        margin-left: 21rem;
+        gap: 2rem;
+    }
+    .navbar-icon{
+        font-size: 26px;  
+    }
+    .home-reg-btn{
+      display: none;
+    }
+}
+
+@media screen and (min-width:913px) and (max-width:1024px){
+    .navbar-list{
+        margin-left: 22rem;
+        gap: 2rem;
+    }
+    .navbar-icon{
+        font-size: 26px;  
+    }
+    .home-reg-btn{
+      display: none;
+    }
+}
